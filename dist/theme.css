@@ -1,0 +1,99 @@
+/* Theme controls and light palette; the existing palette remains the dark theme. */
+.header-controls{display:flex;align-items:center;gap:12px;flex-shrink:0;margin-left:12px}.theme-toggle{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:42px;padding:9px 13px;border:1px solid #ffffff30;border-radius:12px;background:#252922;color:#f1f2e8;font:700 12px/1.3 Arial,sans-serif;white-space:nowrap}.theme-toggle [data-theme-icon]{font-size:20px;line-height:1}.theme-toggle:focus-visible{outline:3px solid #d5a800;outline-offset:3px}header a{min-width:0}
+:root[data-theme="light"]{color-scheme:light;--ink:#202b1e;--nenu-dark:#eef1e8;--nenu-yellow:#a47400;--light-border:#bdc7af}
+html[data-theme="light"] body{background:#e4e6dc!important;color:#202b1e}
+html[data-theme="light"] .glass-panel{background:#f1f2e8;border-color:var(--light-border)}
+html[data-theme="light"] header.glass-panel{background:rgba(238,241,230,.98)!important;border-bottom:1px solid var(--light-border)}
+html[data-theme="light"] header p{color:#46543f!important}
+html[data-theme="light"] .theme-toggle{background:#f0f3e9;border-color:#cbd4c1;color:#24301f}
+html[data-theme="light"] :is(.text-white,.text-zinc-100,.text-zinc-200,.text-zinc-300){color:#24301f!important}
+html[data-theme="light"] :is(.text-zinc-400,.text-zinc-500,.text-zinc-600){color:#46543f!important}
+html[data-theme="light"] :is(.text-yellow-400,.text-yellow-500){color:#795500!important}
+html[data-theme="light"] :is(.text-indigo-100,.text-indigo-200,.text-indigo-300,.text-indigo-400,.text-indigo-500){color:#4d4397!important}
+html[data-theme="light"] :is(.text-emerald-100,.text-emerald-200,.text-emerald-300,.text-emerald-400,.text-emerald-500,.text-green-400){color:#22613d!important}
+html[data-theme="light"] :is([class*="bg-zinc-950"],[class*="bg-zinc-900"],[class*="bg-zinc-800"],[class*="bg-zinc-700"]){background-color:#e3e9d8!important}
+html[data-theme="light"] :is([class*="bg-white/"],[class*="bg-black/"]){background-color:#e3e9d8!important}
+html[data-theme="light"] [class*="bg-indigo-500/"]{background-color:#eeebfb!important}
+html[data-theme="light"] [class*="bg-emerald-500/"]{background-color:#e8f4e9!important}
+html[data-theme="light"] [class*="bg-yellow-500/"]{background-color:#fff4ce!important}
+html[data-theme="light"] :is([class*="border-white"],[class*="border-zinc"]){border-color:var(--light-border)!important}
+html[data-theme="light"] :is(.bg-indigo-600,.bg-purple-600){color:#fff!important}
+html[data-theme="light"] :is(.bg-indigo-600,.bg-purple-600) .text-white{color:#fff!important}
+html[data-theme="light"] input,html[data-theme="light"] select,html[data-theme="light"] textarea{color:#263020!important;caret-color:#263020}
+html[data-theme="light"] input::placeholder{color:#64725d;opacity:1}
+html[data-theme="light"] option{background:#fff;color:#263020}
+html[data-theme="light"] :is(.eyebrow,.hero-sub,.hero-trust,.section-heading>p:last-child,.process-list p,.home-wholesale p:not(.eyebrow),.home-faq details p,.route-intro>p:last-child){color:#46543f}
+html[data-theme="light"] .hero-copy :is(h1,h2) span{color:#795500}
+html[data-theme="light"] .secondary-cta{background:#e9edde;color:#273421;border-color:var(--light-border)}
+html[data-theme="light"] .art-chip{background:#e9edde;color:#293521;border-color:var(--light-border);box-shadow:0 8px 20px #26351b10}
+html[data-theme="light"] .art-center{background:#ebc23d;box-shadow:16px 20px 0 #c8d1b5}
+html[data-theme="light"] .orbit{border-color:#94a27655}
+html[data-theme="light"] :is(.service-doors>a,.service-doors button){background:#edf0e4;border-color:var(--light-border)}
+html[data-theme="light"] :is(.service-doors small,.service-doors b){color:#46543f}
+html[data-theme="light"] .door-icon{background:#fff0b7;color:#795500}
+html[data-theme="light"] .door-icon.green{background:#deefe5;color:#256b4b}
+html[data-theme="light"] .door-icon.purple{background:#eee7f8;color:#684194}
+html[data-theme="light"] .process-list li>span{color:#795500;border-color:#b38b3250}
+html[data-theme="light"] .home-wholesale{background:#d9e2c9;border-color:#b6c59f}
+html[data-theme="light"] .home-faq summary{color:#263020}
+html[data-theme="light"] #sync-status{background:#fff1c5;color:#68500f}
+html[data-theme="light"] #sync-status.is-live{background:#e2f0e2;color:#2a6135}
+html[data-theme="light"] .tab-bar{background:rgba(238,241,230,.98);border-color:var(--light-border);box-shadow:0 5px 25px #20301412}
+html[data-theme="light"] .tab-item{color:#596451}
+html[data-theme="light"] .tab-item.active{color:#795500}
+html[data-theme="light"] .tab-item:hover{color:#263020}
+html[data-theme="light"] :is(#streaming-accordion,#mayorista-accordion)>div>button span{color:#35452b}
+html[data-theme="light"] #floating-cart-hub>button{--tw-ring-color:#f6f7f2;box-shadow:0 6px 20px #39481e20}
+html[data-theme="light"] footer{background:#d6ddca!important;color:#46543f!important;border-top:1px solid #b7c3a5!important}
+html[data-theme="light"] .catalog-kind-tabs button{background:#edf0e4;border-color:var(--light-border);color:#435239}
+html[data-theme="light"] .catalog-kind-tabs button[aria-pressed="true"]{background:#facc15;color:#25301b;border-color:#b28c19}
+html[data-theme="light"] :is(.physical-card,.physical-detail,.nenu-related-card){background:#edf0e4;border-color:var(--light-border)}
+html[data-theme="light"] :is(.physical-category,.physical-presentation,.physical-public-price,.physical-section-heading>span,.physical-detail-toolbar>span,.physical-detail-buy span){color:#46543f}
+html[data-theme="light"] .physical-stock{color:#78501c}
+html[data-theme="light"] .physical-stock.in-stock{color:#286238}
+html[data-theme="light"] :is(.physical-price,.physical-detail-buy strong,.nenu-related-card strong){color:#584000}
+html[data-theme="light"] .physical-card-actions button{background:#e9efdf;color:#344429}
+html[data-theme="light"] .physical-card-actions .physical-add{background:#facc15;color:#1c2111}
+html[data-theme="light"] :is(.physical-card button:disabled,.physical-detail-buy button:disabled){background:#e2e6dc;color:#626c5a}
+html[data-theme="light"] .physical-empty{color:#46543f;border-color:var(--light-border)}
+html[data-theme="light"] :is(.physical-detail-toolbar,.physical-detail-section,.physical-detail-section details){border-color:var(--light-border)}
+html[data-theme="light"] .physical-detail-toolbar button{background:#dde5cf;color:#25301b}
+html[data-theme="light"] .physical-detail-section h3{color:#263020}
+html[data-theme="light"] :is(.physical-detail-section p,.physical-detail-section li){color:#4e5c46}
+html[data-theme="light"] :is(.physical-order-note,.physical-cart-note){background:#eef2df;color:#495632}
+html[data-theme="light"] .physical-detail-buy{background:#dfe7d2;border-color:var(--light-border)}
+html[data-theme="light"] :is(.physical-variant-select,.physical-variant-select option){background:#e3ead7;color:#263020;border-color:#b7c4a4}
+html[data-theme="light"] .nenu-service-images img{background:#f4f6ef}
+html[data-theme="light"] .nenu-related-card button:first-child:not(:last-child){background:#e7eddc;color:#344429}
+html[data-theme="light"] .nenu-service-promo{background:#fff4ce;border-color:#ddc36c}
+html[data-theme="light"] .nenu-service-promo small{color:#625725}
+html[data-theme="light"] .nenu-service-promo .nenu-promo-price{color:#584000}
+html[data-theme="light"] .nenu-contact-share{background:#edf1e7;color:#344429;border-color:#cbd5c1}
+html[data-theme="light"] #modal-container{background:rgba(31,40,25,.48)!important}
+html[data-theme="light"] .thin-scrollbar{scrollbar-color:#a5af98 transparent}
+html[data-theme="light"] .thin-scrollbar::-webkit-scrollbar-thumb{background:#a5af98}
+@media(max-width:600px){.header-controls{gap:7px;margin-left:7px}.theme-toggle{padding:9px;min-width:40px}.theme-toggle [data-theme-label]{display:none}header .brand-name{font-size:16px}header p{font-size:8px!important}#auth-status-badge{max-width:100px}#auth-status-badge>div{max-width:100%}#auth-status-badge span:last-child{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:80px}}
+
+/* Warm, readable card surfaces on the light theme. */
+html[data-theme="light"] .physical-card{border:1px solid #b4c0a3;box-shadow:0 7px 20px #29371b0c}
+html[data-theme="light"] .physical-image-button{border-bottom:1px solid #d1d9c5}
+html[data-theme="light"] .physical-card-body{background:#f1f1e5;color:#202b1e}
+html[data-theme="light"] .physical-card h3{color:#202b1e;font-size:16px;line-height:1.45;font-weight:800}
+html[data-theme="light"] .physical-card .physical-category{color:#4b5c3d;font-size:11px}
+html[data-theme="light"] .physical-card .physical-presentation{color:#46543b;font-size:13px}
+html[data-theme="light"] .physical-card .physical-stock{color:#654a20;font-size:12px}
+html[data-theme="light"] .physical-card .physical-stock.in-stock{color:#365934}
+html[data-theme="light"] .physical-card .physical-price{color:#584000;font-size:24px;font-weight:800}
+html[data-theme="light"] .physical-card-actions button{background:#dce5cc;color:#26391d;border:1px solid #b8c7a0;font-size:12px}
+html[data-theme="light"] .physical-card-actions .physical-add{background:#edc63c;color:#23280f;border-color:#c9a526}
+html[data-theme="light"] .physical-detail-copy h2,html[data-theme="light"] .physical-detail-section h3{color:#202b1e}
+html[data-theme="light"] .physical-detail-section p,html[data-theme="light"] .physical-detail-section li{color:#425236}
+html[data-theme="light"] .glass-panel h4{color:#26351e}
+html[data-theme="light"] input,html[data-theme="light"] select{border:1px solid #b9c7a6}
+html[data-theme="light"] input::placeholder{color:#506042}
+html[data-theme="light"] input:-webkit-autofill{-webkit-box-shadow:0 0 0 1000px #e3e9d8 inset;-webkit-text-fill-color:#263020;caret-color:#263020}
+html[data-theme="light"] .custom-select{background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath stroke='%23455635' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round' d='m6 8 4 4 4-4' fill='none'/%3e%3c/svg%3e")}
+html[data-theme="light"] .hero-sub,html[data-theme="light"] .route-intro>p:last-child,html[data-theme="light"] .process-list p{color:#46543f}
+html[data-theme="light"] .embed-facade{background:#d9e2c9;color:#24331b}
+html[data-theme="light"] .embed-facade>span:last-child{color:#435538}
+@media(max-width:700px){html[data-theme="light"] .physical-card h3{font-size:15px}html[data-theme="light"] .physical-card .physical-price{font-size:22px}}
